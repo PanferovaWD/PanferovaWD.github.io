@@ -10,27 +10,35 @@
 <body>
     <form action="#" method="post" class="html5">
 
-        <label for="login" class="lbl"> Логин:</label>
+       <div cla="form-group"> <label for="login" class="lbl-header"> Логин:</label>
          <input type="text" id="login" class="inpt">
+        </div>
 
 
-            <label for="pswd" class="lbl">Пароль:</label>
-            <input type="password" id="pswd" class="inpt">
+         <div class="form-group">
+        <label for="pswd" class="lbl-header">Пароль:</label>
+         <input type="password" id="pswd" class="inpt">
+        </div>
 
-    <label for="">Пол</label><input>
-    <label for="m">Муж</label><input type="radio" id="m" checked name= "sex">
-    <label for="w">Жен</label><input type="radio" id="w"name= "sex">
+    <label class="lbl-header" for="">Пол</label><input>
+    <label class="lbl" for="m">Муж</label><input type="radio" id="m" checked name= "sex">
+    <label class="lbl" for="w">Жен</label><input type="radio" id="w"name= "sex">
     
-    <label for="">Хобби</label><input>
-    <label for="basketball">Баскетбол</label>
+   <label class="lbl-header">Хобби</label><input>
+   
+    <div class="form-group">
+     <label for="basketball">Баскетбол</label>
     <input type="checkbox" id="basketball" checked name= "hobby">
     
-    <label for="swimming">Плаванье</label>
+    
+    <label class="lbl" for="swimming">Плаванье</label>
     <input type="checkbox"id="swimming"name= "hobby">
     
-    <label for= "tenis">Тенис</label>
+    <label class="lbl" for= "tenis">Тенис</label>
     <input type="checkbox"id="tenis"name="hobby">
-   
+     </div>
+      
+
     </form>
     
 </body>
